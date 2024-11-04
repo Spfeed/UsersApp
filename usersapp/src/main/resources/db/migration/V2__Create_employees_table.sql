@@ -1,0 +1,4 @@
+CREATE TABLE employees (
+    id INT PRIMARY KEY,
+    fio VARCHAR(255) NOT NULL
+);
