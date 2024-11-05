@@ -2,14 +2,14 @@ package com.users.usersapp.model;
 
 public class EmployeeSystemAccess {
     private Integer employeeId;
-    private Integer systemid;
+    private Integer systemId;
     private boolean hasAccess;
 
     public EmployeeSystemAccess() {}
 
-    public EmployeeSystemAccess(Integer employeeId, Integer systemid, boolean hasAccess) {
+    public EmployeeSystemAccess(Integer employeeId, Integer systemId, boolean hasAccess) {
         this.employeeId = employeeId;
-        this.systemid = systemid;
+        this.systemId = systemId;
         this.hasAccess = hasAccess;
     }
 
@@ -21,12 +21,12 @@ public class EmployeeSystemAccess {
         this.employeeId = employeeId;
     }
 
-    public Integer getSystemid() {
-        return systemid;
+    public Integer getSystemId() {
+        return systemId;
     }
 
-    public void setSystemid(Integer systemid) {
-        this.systemid = systemid;
+    public void setSystemId(Integer systemid) {
+        this.systemId = systemid;
     }
 
     public boolean isHasAccess() {

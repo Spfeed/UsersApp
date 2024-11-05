@@ -11,7 +11,7 @@ public class EmployeeSystemAccessRowMapper implements RowMapper<EmployeeSystemAc
     public EmployeeSystemAccess mapRow(ResultSet rs, int rowNum) throws SQLException {
         EmployeeSystemAccess employeeSystemAccess = new EmployeeSystemAccess();
         employeeSystemAccess.setEmployeeId(rs.getInt("employee_id"));
-        employeeSystemAccess.setSystemid(rs.getInt("system_id"));
+        employeeSystemAccess.setSystemId(rs.getInt("system_id"));
         employeeSystemAccess.setHasAccess(rs.getBoolean("has_access"));
         return employeeSystemAccess;
     }
